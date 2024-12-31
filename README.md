@@ -75,10 +75,10 @@ breast-tumor-classification/ ├── data/ │ ├── breast-cancer.csv # D
 ## Screenshots of Web Application
 
 ### Input Form Pic1
-![Input Form](.breast-tumor-classification/Screenshots/pic1.png)
+![Input Form](./breast-tumor-classification/Screenshots/pic1.png)
 
 ### Input Form Pic2
-![Full Interface](.breast-tumor-classification/Screenshots/pic2.png)
+![Full Interface](./breast-tumor-classification/Screenshots/pic2.png)
 
 ---
 
