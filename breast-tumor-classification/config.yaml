@@ -1,0 +1,49 @@
+
+---
+
+## Project Structure
+breast-tumor-classification/ ├── data/ │ ├── breast-cancer.csv # Dataset 
+│ ├── X_train.npy # Preprocessed training features 
+│ ├── X_test.npy # Preprocessed testing features 
+│ ├── y_train.npy # Training labels 
+│ └── y_test.npy # Testing labels 
+├── notebooks/ 
+│ ├── data_analysis.ipynb # Jupyter Notebook for data analysis and preprocessing 
+│ └── model_training.ipynb # Jupyter Notebook for training the Random Forest model 
+├── backend/ │ ├── app.py # Flask backend for inference 
+│ ├── model.pkl # Saved Random Forest model 
+│ ├── templates/ 
+│ │ └── index.html # HTML frontend form 
+│ └── static/ 
+│ └── style.css # CSS for styling the form 
+└── README.md # Project documentation
+
+
+
+---
+
+## Screenshots of Web Application
+
+### Input Form Pic1
+![Input Form](./Screenshots/pic1.png)
+
+### Input Form Pic2
+![Full Interface](./Screenshots/pic2.png)
+
+---
+
+## Usage Instructions
+
+### 1. Clone the Repository
+git clone <repository-url>
+cd breast-tumor-classification
+
+### 2. Install Dependencies
+#### Install the required Python libraries using the following command:
+
+pip install -r requirements.txt
+### 3. Run the Web Application
+#### Start the Flask server:
+
+python backend/app.py
+### Visit http://127.0.0.1:5000 in your browser to access the application.
